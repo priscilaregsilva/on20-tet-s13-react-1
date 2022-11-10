@@ -4,7 +4,9 @@ function Author(props) {
 
     return (
         <div>
+             
             <h1>Prazer, Me chamo {nameAuthor}</h1>
+            <img src={props.foto} />
             <h2>Atualmente sou aluna da Reprograma, no curso de Front-End,
                 estou iniciando minha mingração de carreira nesse momento.</h2>
 
